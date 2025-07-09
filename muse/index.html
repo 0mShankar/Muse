@@ -5,12 +5,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Muse 🎵</h1>
-  <input type="file" id="fileInput" accept="audio/*,video/*">
-  <br><br>
+<div id="header">
+<div id="title">Muse 🎵</div>
+<input type="file" id="fileInput" accept="audio/*,video/*">
+</div>
 
-  <video id="videoPlayer" width="700" controls style="display:none;"></video>
-  <audio id="audioPlayer" controls style="display:none;"></audio>
+
+  <div id="mediaContainer">    
+    
+    <video id="videoPlayer"  controls style="display:none;"></video>
+    <audio id="audioPlayer" controls style="display:none;"></audio>
+  </div>
   
   <script src="renderer.js"></script>
 </body>
