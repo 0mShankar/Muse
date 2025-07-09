@@ -5,9 +5,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
+  <!-- Welcome Screen -->
+<div id="welcomeScreen">
+  <h1>Welcome to Muse 🎵</h1>
+  <p>Your personal media companion</p>
+  <button id="enterApp">Enter</button>
+</div>
+
+
+<!-- Main App -->
+<div id="appContent" style="display: none;">
+  <!-- existing header, players, and controls here -->
+
 <div id="header">
 <div id="title">Muse 🎵</div>
-<input type="file" id="fileInput" accept="audio/*,video/*">
+<button id="customFileButton">📁 Browse File</button>
+
+ <!-- File name display -->
+  <div id="fileName">No file selected</div>
+<input type="file" id="fileInput" accept="audio/*,video/*" style="display: none;">
 </div>
 
 
@@ -19,4 +37,5 @@
   
   <script src="renderer.js"></script>
 </body>
+</div>
 </html>

@@ -82,3 +82,62 @@ input[type="range"] {
   width: 200px;
   margin-top: 10px;
 }
+
+#customFileButton {
+  padding: 10px 20px;
+  background-color: Grey;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#customFileButton:hover {
+  background-color:Red;
+}
+
+#fileName{
+  margin:8px 0;
+  color: #fff;
+  font-weight: 500;
+  font-style: italic;
+}
+
+#welcomeScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #2c3e50, #4ca1af);
+  color: white;
+  text-align: center;
+}
+
+#welcomeScreen h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+#welcomeScreen p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+#welcomeScreen button {
+  padding: 10px 20px;
+  background-color: #f39c12;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+#welcomeScreen button:hover {
+  background-color: #e67e22;
+}
+
+
